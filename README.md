@@ -17,3 +17,5 @@ Reservation page
 Sign up Page
 
 F.A.Q page
+
+Local Menu? Click here
