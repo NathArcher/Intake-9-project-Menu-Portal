@@ -5,28 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>   
+    
+    .topnav{ display: flex;
+
+
+}  
+
+.topnav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#0a0908
+}
+    a{
+        text-decoration: none;
+        font-size:large;
+        display:block;
+        padding:10px 20px;
+    }
+    a:link{
+        color:#F2F4F3
+    }
+    a:visited{
+        color:#F2F4F3 ;
+    }
+    a.hover{
+        color:#F2F4F3 ;
+        background-color:#49111c;
+    }
+    a.active{
+        color: #F2F4F3;
+        background-color:#49111c ;
+    }
+    .bottomnav{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color:#0a0908}
+
+    </style>
 </head>
 <body>
-    <nav>
-        <img src=""><!--Logo-->
-        <!--Menus-->
-        <!--Offers-->
-        <!--Sign up-->
-       <!-- Reserve now-->
-        <!--Delivery OR Pickup-->
+    <nav class="topnav">
+        <a href=""><img src=""></a>
+        <a href="">Menus</a>
+        <a href="">Offers</a>
+        <a href="">Sign Up!</a>
+       <a href="">Reserve now</a>
+        <a href="" class="button">Delivery</a>
+        <a href="" class="button">Pickup</a>
 
     </nav>
   <div><h1>About Us</h1></div>
   <p></p>
   <p></p>
   <p></p>
-  <div><a href="">Contact us</a></div>
-  <div><a href="">F.A.Q</a></div>
-    <nav>
-        <!--Contact Us-->
-        <!--About US-->
-        <!--F.A.Q-->
-        <!--Local Restaurant? Click here-->
+  <div><a href="" class="button">Contact us</a></div>
+  <div><a href="" class="button">F.A.Q</a></div>
+    <nav class="bottomnav">
+        <a href="">Contact Us</a>
+        <a href="">About Us</a>
+        <a href="">F.A.Q</a>
+        <a href="">Local Restaurant? Click here</a>
     </nav>
 </body>
 </html>
