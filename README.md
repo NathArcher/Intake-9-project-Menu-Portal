@@ -18,4 +18,4 @@ Sign up Page
 
 F.A.Q page
 
-Local Menu? Click here
+Local Restaurant? Click here
