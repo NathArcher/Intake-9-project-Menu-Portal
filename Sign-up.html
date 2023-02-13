@@ -6,43 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style> 
-
-    .topnav{ display: flex;
-
-
-    }  
-    .bottomnav{
-        display: flex;
-
+.topnav{
+    display:inline;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:#0a0908
+}
+   .topnav a{
+        text-decoration: none;
+        font-size:large;
+        text-align: center;
+        padding:10px 20px;
     }
-        a{
-            text-decoration: none;
-        }
-        a:link{
-            color:
-        }
-        a:visited{
-            color: ;
-        }
-        a.hover{
-            color: ;
-            background-color:;
-        }
-        a.active{
-            color: ;
-            background-color: ;
-        }</style>
+    a:link{
+        color:#F2F4F3;
+    }
+    a:visited{
+        color:#F2F4F3 ;
+    }
+    a.hover{
+        color:#F2F4F3 ;
+        background-color:#49111c;
+    }
+    a.active{
+        color: #F2F4F3;
+        background-color:#49111c ;
+    }
+        .bottomnav{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-color:#0a0908}</style>
 </head>
 <body>
     <nav class="topnav">
+
         <a href=""><img src=""></a>
         <a href="">Menus</a>
         <a href="">Offers</a>
         <a href="">Sign Up!</a>
-       <a href="">Reserve now</a>
-        <a href="" class="button">Delivery</a>
-        <a href="" class="button">Pickup</a>
-    </nav>
+        <a href="">Reserve now</a>
+        <a href="" class>Delivery</a>
+        <a href="" class>Pickup</a>
+   </nav>
+
 
     <center><h1>Sign up</h1>
     <br><br><br>
@@ -61,10 +71,10 @@
     Do you wish to recieve marketing emails from us  <input type="radio" name="role" id="role" value="marketing" multiple></input><br></center>
 
     <nav class="bottomnav">
-        <a href="">Contact Us</a>
-        <a href="">About Us</a>
-        <a href="">F.A.Q</a>
-        <a href="">Local Restaurant? Click here</a>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">F.A.Q</a></li>
+        <li><a href="">Local Restaurant? Click here</a></li>
     </nav>
 </body>
 </html>
