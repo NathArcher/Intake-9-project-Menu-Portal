@@ -7,39 +7,42 @@
     <title>Document</title>
     <style> 
 .topnav{
-    display:inline;
+    display:flex;
+    flex-direction: row;
     position:fixed;
     top:0;
     left:0;
     width:100%;
     background-color:#0a0908
 }
-   .topnav a{
+nav a{
         text-decoration: none;
         font-size:large;
-        text-align: center;
+        display:block;
         padding:10px 20px;
     }
-    a:link{
-        color:#F2F4F3;
+nav a:link{
+        color:#F2F4F3
     }
-    a:visited{
+nav a:visited{
         color:#F2F4F3 ;
     }
-    a.hover{
+nav a:hover{
         color:#F2F4F3 ;
         background-color:#49111c;
     }
-    a.active{
+nav a:active{
         color: #F2F4F3;
         background-color:#49111c ;
     }
-        .bottomnav{
+.bottomnav{
     position:fixed;
     bottom:0;
     left:0;
     width:100%;
-    background-color:#0a0908}</style>
+    background-color:#0a0908}
+
+    </style>
 </head>
 <body>
     <nav class="topnav">
