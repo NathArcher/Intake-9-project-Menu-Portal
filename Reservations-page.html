@@ -42,10 +42,22 @@ nav a:active{
     left:0;
     width:100%;
     background-color:#0a0908}
+
+#reserve { border:1 px black;
+  background-color: #49111c ;
+  position: flex;
+  padding: 15px;
+  margin-top: 30px;
+  color: #F2F4F3;
+  position: flex;
+  justify-content:center;
+  align-items: center;
+}
+  
     
     </style>
 </head>
-<body>
+<body  style="background-color:#5e503f">
     <nav class="topnav">
         <a href=""><img src=""></a>
         <a href="">Menus</a>
@@ -54,9 +66,44 @@ nav a:active{
        <a href="">Reserve now</a>
         <a href="" class="button">Delivery</a>
         <a href="" class="button">Pickup</a>
+     </nav>
+<div id="reserve">
+        <Center>
+     <form method="post" action="Reservations-page.html">
+        <H1> Reserve now</H1></Center>
+        <center><p>
+         You'll receive an automated email with available seating,pricing and menu options.<br>
+        We also offer discounts and  loyalty programs.
+     </p></center>
+    
+         <label for="name">Name:</label>
+         <sup>*</sup><input type="text" id="name" name="name"
+          placeholder="name" required>
+           <br></br>
+     
+         <label for="email">Email:</label>
+         <input type="email" id="email"  name="email" placeholder="email" required>
+         <br></br>
 
-    </nav>
-
+         <label for="phone number">  Phone number:</label>
+         <input type="phone number" id="number" name="number" placeholder="number" >
+         <br>
+         
+          <label for="restaurants">Available Restaurants</label>
+         <select id=" restaurants" name="restaaurants" placeholder="restaurants"> 
+         <option>joeyrestaurants</option>
+         <option> red lobster</option>
+         <option> freshii</option>
+         <option> chiken massala</option>
+         <option> fauna</option>
+        </select> <br></br>
+      <label for="message" id="message"></label>
+         <textarea rows="5" cols="20"placeholder="enter your message..."></textarea>
+         <br></br>
+     
+         <input type="submit" value="submit">
+     
+</div>
     <nav class="bottomnav">
         <a href="">Contact Us</a>
         <a href="">About Us</a>
