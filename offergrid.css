@@ -1,0 +1,24 @@
+ #grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 250px, 1fr));
+    gap: 5px;
+    background-color: #49111c;
+    padding: 2px;
+
+  }     
+
+  #grid>div {
+    background-color:none;;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+  #h2week {  
+    font-size: larger;
+    font-style: italic;
+  }
+
+
+
