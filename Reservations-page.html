@@ -36,21 +36,59 @@ nav a:active{
         color: #F2F4F3;
         background-color:#49111c ;
     }
-.bottomnav{
+
+.topnav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
     position:fixed;
+    top:0;
+    width:100%;
+    background-color:#0a0908;
+    z-index:999;
+}
+
+#ltopnav{
+    display: flex;
+    flex-direction: row;
+}
+
+#rtopnav{
+    display: flex;
+    flex-direction: row;
+}
+
+    .bottomnav{
+    display:flex;
+    position: relative;
+    flex-direction: column;
     bottom:0;
     left:0;
+    right:0;
     width:100%;
-    background-color:#0a0908}
+    background-color:#0a0908;
+}
+.bottomnav a{ 
+    width:100%;
+    padding:10px 0px;
+}
+
+
+#homepage>img{
+    display: inline-block;
+    vertical-align: top;
+    width: 35px;
+    height: 30px;     
+}   
 
 #reserve { border:1 px black;
   background-color: #49111c ;
-  position: flex;
   padding: 15px;
   margin-top: 30px;
   color: #F2F4F3;
-  position: flex;
-  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
   align-items: center;
 }
   
@@ -60,7 +98,7 @@ nav a:active{
 <body  style="background-color:#5e503f">
     <nav class="topnav">
         <div id="ltopnav">
-        <a href=""><img src=""></a>
+        <a href="Landing page.html"id="homepage"><img src="/images/website logo.png">
         <a href="">Menus</a>
         <a href="">Offers</a>
     </div>
@@ -80,7 +118,7 @@ nav a:active{
      </p></center>
     
          <label for="name">Name:</label>
-         <sup>*</sup><input type="text" id="name" name="name"
+         <input type="text" id="name" name="name"
           placeholder="name" required>
            <br></br>
      
@@ -94,11 +132,9 @@ nav a:active{
          
           <label for="restaurants">Available Restaurants</label>
          <select id=" restaurants" name="restaaurants" placeholder="restaurants"> 
-         <option>joeyrestaurants</option>
+         <option>pizza hut</option>
          <option> red lobster</option>
-         <option> freshii</option>
-         <option> chiken massala</option>
-         <option> fauna</option>
+         <option> joeyrestaurants</option>
         </select> <br></br>
       <label for="message" id="message"></label>
          <textarea rows="5" cols="20"placeholder="enter your message..."></textarea>
