@@ -124,12 +124,12 @@ table th{
     background-color: rgb(199, 7, 7);
 }
 
-#button {
+.button {
     display:flex;
     justify-content: center;
 }
 
-#button a{ margin: 5px;
+.button a{ margin: 5px;
     text-decoration: none;
 }
 
