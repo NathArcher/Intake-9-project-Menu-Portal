@@ -79,3 +79,61 @@ main{
     margin-top:5%;
     margin-bottom:10%;
 }
+
+#logo>img{
+    height:140px; 
+    width: 322px;
+}
+
+#menu>img{
+height:414px;
+width:291px;
+margin: 5px;
+}
+
+#pagecontent{
+display:flex;
+flex-direction: column;
+align-content: center ;
+flex-wrap: wrap;
+}
+
+#menubox{
+display:flex;
+justify-content: center;
+}
+
+table th{
+    text-align: left;
+    padding-right:10px;
+}
+
+.hrsndeals{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+.ordernow{
+    display:block;
+    padding: 10px 28px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(199, 7, 7);
+}
+
+#button {
+    display:flex;
+    justify-content: center;
+}
+
+#button a{ margin: 5px;
+    text-decoration: none;
+}
+
+#map{
+display:flex;
+justify-content: center; 
+}
