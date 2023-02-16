@@ -1,24 +1,65 @@
- #grid {
+#grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax( 250px, 1fr));
-    gap: 5px;
-    background-color: #49111c;
-    padding: 2px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap:7vw;
+    width:100%;
+  }  
 
-  }     
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
 
-  #grid>div {
-    background-color:none;;
-    text-align: center;
-    padding: 20px;
-    font-size: 30px;
+#h2week {  
+    font-size: xx-large;
+    font-weight: bold;
+
   }
 
+#redl1 {
+ height: 200px;
+ width:200px;
+}
 
-  #h2week {  
-    font-size: larger;
-    font-style: italic;
-  }
+#redl2 {
+  height: 200px;
+ width:200px;
+}
 
+#redl3 {
+  height: 200px;
+ width:200px;
+}
 
+#pizza1 {
+  height: 200px;
+ width:200px;
+}
+
+#pizza2 {
+  height: 200px;
+  width:200px;
+}
+
+#pizza3 {
+  height: 200px;
+ width:200px;
+}
+
+#joey1 {
+  height: 200px;
+ width:200px;
+}
+
+#joey2 {
+  height: 200px;
+ width:200px;
+}
+
+#joey3 {
+  height: 200px;
+ width:200px;
+}
 
