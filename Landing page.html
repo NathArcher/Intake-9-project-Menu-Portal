@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>landing page</title>
+    
     <link rel="stylesheet" href="nathan-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -15,7 +18,7 @@
     <div id="ltopnav"> 
         <a href="Landing page.html"id="homepage"><img src="/images/website logo.png"></a>
         <a href="">Menus</a>
-        <a href="">Offers</a>    
+        <a href="Offers.html">Offers</a>    
     </div>
     <div id="rtopnav">
         <a href="Sign-up.html">Sign Up!</a>
@@ -24,7 +27,6 @@
         <div class="button"><a href="" class="button pickup">Pickup</a></div>
     </div>
 </nav>
-
 
 <div>
     <a href="Menu-page_Pizza_hut.html" id="phlogos"><img src="/images/pizza hut promo pic.jpg"></a>
@@ -37,7 +39,7 @@
  <br><br>
 <div>
 
-    <h1 id="aboutus"><b><u>About us</u></b></h1><br><br>
+    <center><h1 id="aboutus"><b><u>About us</u></b></h1></center><br><br>
     <h2 style="font-size:xx-large"> Menu Offer</h2>
      <h4 style="font-size: x-small;"><i> Turning physical to digital one brochure at a time</i></h4><br><br>
 
@@ -51,9 +53,9 @@
 
 <br><br><br>
 
-<div >
+<div id="faq">
 
-    <h1 id="faq"><b><u>F.A.Q.</u></b></h1>
+    <center><h1 ><b><u>F.A.Q.</u></b></h1></center>
     <br><br>
     <ul type="none">
     <h2>Who are we?</h2><br>
@@ -78,25 +80,25 @@
 
 <br><br><br><br>
 
-<div> 
+<div id="contact"> 
 
-<legend><h1 id="contact">Contact Us</h1></legend><br>
+<center><legend><h1 >Contact Us</h1></legend></center><br>
 <label for="fn">Name<sup>*</sup></label><br>
 <input type="text" name="fname" id="fn" required/> <br> <br>
 
 <label for="email">Email <sup>*</sup></label><br>
-<input type="email" name="email" id="email" required> <br><br>
+<input type="text" name="email" id="email" required> <br><br>
 
-<label for="select">Who is this about?</label><br>
-<ul type="disc">
+<label for="select">Who are you contacting us about today?</label><br><br>
+<ul type="none" id="checkboxlist">
     <li>Restaurant?<input type="checkbox" name="select" id="select" value="Restaurant"> </input></li>
     <li>Menu Offer?<input type="checkbox" name="select" id="select" value="menuportal"></input></li>
 </ul><br>
 
-<label for="comments">How can we help you today?</label><br>
-<textarea rows="3" cols="28" placeholder="comments here..."></textarea> <br><br>
+<label for="comments">How can we help you?</label><br>
+<input type=text id=comments textarea rows="3" cols="28" style="font-size: larger; font-style: italic; text-align: center;" placeholder="Let us know here"></textarea> <br><br>
 
-<input type="submit" value="Submit">
+<center><input type="submit" value="Submit"></center>
 </div>
 
 <br><br>
@@ -105,11 +107,12 @@
 
      
 
-<div class="media icons">
+
     <legend><h1>Share Menu Offer with your friends!</h1></legend><br>
-    <a href=""><i class="fa-brands fa-facebook"></i></a>
-    <a href=""><i class="fa-brands fa-twitter"></i></a>
-    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    <div class="media-icons">
+    <a href="" class="fa fa-facebook"></a>
+    <a href="" class="fa fa-twitter"></a>
+    <a href="" class="fa fa-instagram"></a>
 </div>
 
 </main>
