@@ -1,9 +1,14 @@
+main {
+  margin-left: 10px!important;
+  margin-right: 10px!important;
+}
 #grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
     grid-gap:7vw;
     width:100%;
+    margin:0;
   }  
 
   .grid-item {
@@ -19,47 +24,70 @@
   }
 
 #redl1 {
- height: 200px;
- width:200px;
+ height: 300px;
+ width:300px;
 }
 
 #redl2 {
-  height: 200px;
- width:200px;
+  height: 300px;
+  width:300px;
 }
 
 #redl3 {
-  height: 200px;
- width:200px;
+  height: 300px;
+  width:300px;
 }
 
 #pizza1 {
-  height: 200px;
- width:200px;
+  height: 300px;
+ width:300px;
 }
 
 #pizza2 {
-  height: 200px;
-  width:200px;
+  height: 300px;
+ width:300px;
 }
 
 #pizza3 {
-  height: 200px;
- width:200px;
+  height: 300px;
+ width:300px;
 }
 
 #joey1 {
-  height: 200px;
- width:200px;
+  height: 300px;
+  width:300px;
 }
 
 #joey2 {
-  height: 200px;
- width:200px;
+  height: 300px;
+  width:300px;
 }
 
 #joey3 {
-  height: 200px;
- width:200px;
+  height: 300px;
+  width:300px;
 }
 
+.pickup{
+  display:block;
+  padding: 10px 28px;
+  border-radius: 5px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(243, 153, 35);
+}
+.delivery{
+  display:block;
+  padding: 10px 28px;
+  border-radius: 5px;
+  color:rgb(255, 255, 255);
+  background-color: rgb(243, 153, 35);
+}
+
+.button {
+  display:flex;
+  justify-content: center;
+}
+
+.button a{ margin: 5px;
+  text-decoration: none;
+}
