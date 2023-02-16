@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style> 
-    
-    .topnav{
+html, body{
+        background-color: #49111c ;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+.topnav{
     display:flex;
     flex-direction: row;
     position:fixed;
@@ -60,7 +64,7 @@ nav a:active{
 
     .bottomnav{
     display:flex;
-    position: relative;
+    position: fixed;
     flex-direction: column;
     bottom:0;
     left:0;
@@ -95,38 +99,39 @@ nav a:active{
     
     </style>
 </head>
-<body  style="background-color:#5e503f">
+<body>
     <nav class="topnav">
-        <div id="ltopnav">
-        <a href="Landing page.html"id="homepage"><img src="/images/website logo.png">
-        <a href="">Menus</a>
-        <a href="">Offers</a>
-    </div>
-    <div id="rtopnav">
-        <a href="">Sign Up!</a>
-       <a href="">Reserve now</a>
-        <a href="" class="button">Delivery</a>
-        <a href="" class="button">Pickup</a>
-     </nav>
+        <div id="ltopnav"> 
+            <a href="Landing page.html"id="homepage"><img src="/images/website logo.png"></a>
+            <a href="">Menus</a>
+            <a href="">Offers</a>    
+        </div>
+        <div id="rtopnav">
+            <a href="Sign-up.html">Sign Up!</a>
+            <a href="Reservations-page.html">Reserve now</a>
+            <div class="button"><a href="" class="button delivery">Delivery</a></div>
+            <div class="button"><a href="" class="button pickup">Pickup</a></div>
+        </div>
+        </nav>
 <div id="reserve">
         <Center>
      <form method="post" action="Reservations-page.html">
         <H1> Reserve now</H1></Center>
         <center><p>
          You'll receive an automated email with available seating,pricing and menu options.<br>
-        We also offer discounts and  loyalty programs.
+        We also offer discounts and loyalty programs.
      </p></center>
-    
-         <label for="name">Name:</label>
+    <br>
+         <label for="name">Name</label>
          <input type="text" id="name" name="name"
           placeholder="name" required>
            <br></br>
-     
-         <label for="email">Email:</label>
+
+         <label for="email">Email</label>
          <input type="email" id="email"  name="email" placeholder="email" required>
          <br></br>
 
-         <label for="phone number">  Phone number:</label>
+         <label for="phone number">  Phone number</label>
          <input type="phone number" id="number" name="number" placeholder="number" >
          <br>
          
@@ -137,17 +142,17 @@ nav a:active{
          <option> joeyrestaurants</option>
         </select> <br></br>
       <label for="message" id="message"></label>
-         <textarea rows="5" cols="20"placeholder="enter your message..."></textarea>
+         <textarea rows="5" cols="20" placeholder="Any special requests?"></textarea>
          <br></br>
      
          <input type="submit" value="submit">
      
 </div>
-    <nav class="bottomnav">
-        <a href="">Contact Us</a>
-        <a href="">About Us</a>
-        <a href="">F.A.Q</a>
-        <a href="">Local Restaurant? Click here</a>
-    </nav>
+<nav class="bottomnav">
+    <a href="Landing page.html#aboutus">About Us</a>
+    <a href="Landing page.html#faq">F.A.Q</a>
+    <a href="Landing page.html#contact">Contact Us</a>
+    <a href="">Local Restaurant? Click here</a>
+</nav>
 </body>
 </html>
