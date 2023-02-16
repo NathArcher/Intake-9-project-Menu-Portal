@@ -1,0 +1,112 @@
+html, body{
+    background-color: #49111c ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav{
+display:flex;
+flex-direction: row;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background-color:#0a0908
+}
+nav a{
+    text-decoration: none;
+    font-size:large;
+    display:block;
+    padding:10px 20px;
+}
+nav a:link{
+    color:#F2F4F3
+}
+nav a:visited{
+    color:#F2F4F3 ;
+}
+nav a:hover{
+    color:#F2F4F3 ;
+    background-color:#49111c;
+}
+nav a:active{
+    color: #F2F4F3;
+    background-color:#49111c ;
+}
+
+.topnav{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+position:fixed;
+top:0;
+width:100%;
+background-color:#0a0908;
+z-index:999;
+}
+
+#ltopnav{
+display: flex;
+flex-direction: row;
+}
+
+#rtopnav{
+display: flex;
+flex-direction: row;
+}
+
+.bottomnav{
+display:flex;
+position: fixed;
+flex-direction: column;
+bottom:0;
+left:0;
+right:0;
+width:100%;
+background-color:#0a0908;
+}
+.bottomnav a{ 
+width:100%;
+padding:10px 0px;
+}
+
+
+#homepage>img{
+display: inline-block;
+vertical-align: top;
+width: 35px;
+height: 30px;     
+}   
+
+#reserve { border:1 px black;
+background-color: #49111c ;
+padding: 15px;
+margin-top: 30px;
+color: #F2F4F3;
+display: flex;
+flex-direction: column;
+justify-content: center ;
+align-items: center;
+}
+.pickup{
+    display:block;
+    padding: 10px 28px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(243, 153, 35);
+}
+.delivery{
+    display:block;
+    padding: 10px 28px;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(243, 153, 35);
+}
+
+.button {
+    display:flex;
+    justify-content: center;
+}
+
+.button a{ margin: 5px;
+    text-decoration: none;
+}
